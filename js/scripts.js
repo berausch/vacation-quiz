@@ -1,4 +1,11 @@
 $(function() {
+  $(".greet").click(function(){
+    $(".greet").hide();
+    $(".head-vaca").show();
+  });
+  $(".greet").click(function(){
+    $("#sect1").show();    
+  });
   $(".sect1-btn").click(function(event){
     event.preventDefault();
     var q1 = $("input:radio[name=q1]:checked").val();
@@ -42,7 +49,7 @@ $(function() {
     $(".vegas").hide();
     $(".disneyworld").hide();
     $("#q5City").hide();
-    
+
     if (q3City === q4City) {
       $("#error").show();
     }
