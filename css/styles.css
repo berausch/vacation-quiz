@@ -1,5 +1,5 @@
 #nature {
-  display: none;
+display: none;
 }
 
 #city {
@@ -7,5 +7,33 @@ display: none;
 }
 
 .sports {
+display: none;
+}
+
+#error {
+  display: none;
+}
+
+.paris {
+  display: none;
+}
+
+.hawaii {
+  display: none;
+}
+
+.yosemite {
+  display: none;
+}
+
+.vegas {
+  display: none;
+}
+
+.disneyworld {
+  display: none;
+}
+
+.new-york {
   display: none;
 }
