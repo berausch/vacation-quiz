@@ -2,7 +2,19 @@
 display: none;
 }
 
-#city {
+#q3City {
+display: none;
+}
+
+#q4City {
+display: none;
+}
+
+#q5City {
+display: none;
+}
+
+.sect3-btn {
 display: none;
 }
 
