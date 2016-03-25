@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+    <title>Vacation</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="sect1">
+        <div class="q1">
+          <h3>Which of these words describe your perfect vacation:</h3>
+          <table>
+            <tr>
+              <td>
+                <label class="radio-inline">
+                  <input type="radio" name="descript" value="romantic" checked>
+                  Romantic
+                </label>
+              </td>
+              <td>
+                <label class="radio-inline">
+                  <input type="radio" name="descript" value="relaxing" checked>
+                  Relaxing
+                </label>
+              </td>
+              <td>
+                <label class="radio-inline">
+                  <input type="radio" name="descript" value="adventurous" checked>
+                  Adventurous
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label class="radio-inline">
+                  <input type="radio" name="descript" value="exciting" checked>
+                  Exciting
+                </label>
+              </td>
+              <td>
+                <label class="radio-inline">
+                  <input type="radio" name="descript" value="family" checked>
+                  Family-Friendly
+                </label>
+              </td>
+              <td>
+                <label class="radio-inline">
+                  <input type="radio" name="descript" value="cultural" checked>
+                  Cultural
+                </label>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="q2">
+          <label class="radio-inline">
+            <input type="radio" name="nat-cit" value="nature" checked>
+            Nature
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="nat-cit" value="city" checked>
+            City
+          </label>
+        </div>
+        <button type="submit" class="btn">Submit Part 1</button>
+      </form>
+      <form id="nature">
+        <h3>Which do you prefer?</h3>
+        <div id="q3-city">
+          <label class="radio-inline">
+            <input type="radio" name="nature-prefer" value="beach" checked>
+            Beach
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="nature-prefer" value="Woods" checked>
+            Woods
+          </label>
+          <button type="submit" class="btn">Submit and get your Vacation Destination!</button>
+        </div>
+      </form>
+      <form id="city">
+        <div id="q3-city-fav">
+          <h3>What's your favorite things to do when you travel?</h3>
+          <label class="radio-inline">
+            <input type="radio" name="fav" value="museums" checked>
+            Museums/Sight-Seeing
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="fav" value="roller" checked>
+            Roller Coasters
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="fav" value="theater" checked>
+            Live theater
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="fav" value="gambling" checked>
+            Gambling
+          </label>
+          <div class="sports">
+            <label class="radio-inline">
+              <input type="radio" name="fav" value="sports" checked>
+              Sports (skiing, water-rafting, mountain climbing, etc.)
+            </label>
+          </div>
+        </div>
+        <div id="q4-city">
+          <h3>Which of the following would you least like doing on a trip?</h3>
+          <label class="radio-inline">
+            <input type="radio" name="hate" value="museums" checked>
+            Museums/Sight-Seeing
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="hate" value="roller" checked>
+            Roller Coasters
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="hate" value="theater" checked>
+            Live theater
+          </label>
+            <label class="radio-inline">
+              <input type="radio" name="hate" value="gambling" checked>
+              Gambling
+            </label>
+        </div>
+        <div id="q5">
+          <h3>Do you want to travel abroad?</h3>
+          <label class="radio-inline">
+            <input type="radio" name="abroad" value="stay" checked>
+            Stay in the US
+          </label>
+          <label class="radio-inline">
+            <input type="radio" name="hate" value="abroad" checked>
+            Go Abroad
+          </label>
+        </div>
+        <button type="submit" class="btn">Submit and get your Vacation Destination!</button>
+      </form>
+    </div>
+  </body>
+</html>
