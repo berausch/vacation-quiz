@@ -4,7 +4,7 @@ $(function() {
     $(".head-vaca").show();
   });
   $(".greet").click(function(){
-    $("#sect1").show();    
+    $("#sect1").show();
   });
   $(".sect1-btn").click(function(event){
     event.preventDefault();
@@ -28,7 +28,6 @@ $(function() {
   $(".sect2-btn").click(function(event){
     event.preventDefault();
     var q3Nature = $("input:radio[name=q3-nature]:checked").val();
-    alert(q3Nature);
     if (q3Nature === "beach") {
       $(".hawaii").show();
       $("#nature").hide();
@@ -36,6 +35,7 @@ $(function() {
       $(".yosemite").show();
       $("#nature").hide();
     }
+  $(".sect3-btn").hide();
   });
   $(".sect3-btn").click(function(event){
     event.preventDefault();
@@ -184,5 +184,8 @@ $(function() {
       else if (q5City === "abroad"){
         (".paris").show();
       }}
+      $("#q3City").hide();
+      $("#q4City").hide();
   });
+  
 });

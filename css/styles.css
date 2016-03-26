@@ -3,11 +3,42 @@
     src: url(../fonts/Parisish.ttf);
 }
 
+@font-face {
+    font-family: mySecondFont;
+    src: url(../fonts/DEFTONE.ttf);
+}
+
+.result {
+  font-family: mySecondFont;
+  font-weight: bold;
+}
+
+label {
+  margin-left: 60px;
+  padding: 40px;
+}
+
+.result-pic {
+  width: 800px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 body {
-  font-size: 30px;
+  font-size: 40px;
   font-family: myFirstFont;
   background-image: url(../img/body.jpg);
+  background-size: cover;
+  text-align: center;
 }
+
+.q1 {
+  margin-left: 150px;
+}
+
 
 h2 {
   font-size: 60px;
@@ -19,13 +50,22 @@ h3 {
   font-size: 55px;
 }
 
+#top-instruct {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 #sect1 {
   display: none;
 }
 
 .greet {
+  padding-top: 75px;
   width: 1000px;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .head-vaca {
   display: none;
@@ -35,7 +75,8 @@ h3 {
 
 button{
   margin-top: 30px;
-  margin-left: 200px;
+
+
 
 }
 h4 {
@@ -49,6 +90,7 @@ h5 {
 h1 {
   font-weight: bold;
   font-size: 70px;
+  text-align: center;
 }
 
 #nature {
