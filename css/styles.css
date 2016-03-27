@@ -14,8 +14,8 @@
 }
 
 label {
-  margin-left: 60px;
-  padding: 40px;
+  padding: 20px;
+  margin: 10px;
 }
 
 .result-pic {
@@ -25,7 +25,11 @@ label {
   margin-left: auto;
   margin-right: auto;
 }
-
+ table {
+   text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+ }
 
 body {
   font-size: 40px;
@@ -33,25 +37,23 @@ body {
   background-image: url(../img/Body.jpg);
   background-size: cover;
   text-align: center;
+
 }
 
-.q1 {
-  margin-left: 150px;
-}
 
 
 h2 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
 }
 
 h3 {
   font-weight: bold;
-  font-size: 55px;
+  font-size: 45px;
 }
 
 #top-instruct {
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 40px;
 }
 
@@ -69,7 +71,7 @@ h3 {
 }
 .head-vaca {
   display: none;
-  width: 1000px;
+  width: 600px;
   height: auto;
 }
 
@@ -89,7 +91,7 @@ h5 {
 
 h1 {
   font-weight: bold;
-  font-size: 70px;
+  font-size: 65px;
   text-align: center;
 }
 
@@ -97,20 +99,14 @@ h1 {
 display: none;
 }
 
-#q3City {
-display: none;
+#city {
+  display: none;
 }
 
-#q4City {
-display: none;
-}
 
-#q5City {
-display: none;
-}
 
-.sect3-btn {
-display: none;
+#sect4 {
+  display: none;
 }
 
 .sports {
