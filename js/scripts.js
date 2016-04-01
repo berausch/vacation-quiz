@@ -50,7 +50,6 @@ $(function() {
       $(".disneyworld").hide();
       $("#city").hide();
       $(".head-vaca").hide();
-      $(".retake").show();
     }
 
     if (q3City === q4City) {
@@ -60,14 +59,12 @@ $(function() {
         if(q3City === "museums"){
           if(q4City === "roller") {
             $("#sect4").show();
-            $(".retake").hide();
           }
           else if (q4City === "theater") {
               $(".paris").show();
             }
           else if (q4City === "gambling") {
             $("#sect4").show();
-            $(".retake").hide();
           }}
         else if (q3City === "roller"){
           $(".disneyworld").show();
@@ -98,7 +95,6 @@ $(function() {
       if (q3City === "museums") {
         if(q4City === "roller" || q4City === "gambling") {
           $("#sect4").show();
-          $(".retake").hide();
         }
         else if (q4City === "theater") {
           $(".paris").show();
@@ -120,7 +116,6 @@ $(function() {
       if (q3City === "museums") {
         if(q4City === "roller" || q4City === "gambling") {
           $("#sect4").show();
-          $(".retake").hide();
           }
         else if (q4City === "theater") {
           $(".paris").show();
@@ -142,7 +137,6 @@ $(function() {
       if (q3City === "museums") {
         if(q4City === "roller" || q4City === "gambling") {
           $("#sect4").show();
-          $(".retake").hide();
           }
         else if (q4City === "theater") {
           $(".paris").show();
@@ -169,7 +163,6 @@ $(function() {
     $(".paris").hide();
     $(".vegas").hide();
     $(".disneyworld").hide();
-    $(".retake").show();
     $(".head-vaca").hide();
     var q5City = $("input:radio[name=q5-city]:checked").val();
       if (q5City === "stay"){
@@ -187,9 +180,11 @@ $(function() {
       $(".new-york").hide();
       $(".paris").hide();
       $(".vegas").hide();
+      $(".yosemite").hide();
+      $(".hawaii").hide();
       $(".disneyworld").hide();
+      $(".head-vaca").hide()
       $(".greet").show();
-      $(".retake").hide();
     });
     $(".sect2-back").click(function(event){
       event.preventDefault();
@@ -236,14 +231,12 @@ $(function() {
           $(".paris").hide();
           $(".new-york").hide();
           $("#sect4").show();
-          $(".retake").hide()
         } else {
           if(q2 === "nature") {
             $(".head-vaca").show();
             $(".hawaii").hide();
             $(".yosemite").hide();
             $("#nature").show();
-            $(".retake").hide()
           } else if (q2 === "city") {
             $(".head-vaca").show();
             $(".paris").hide();
@@ -251,7 +244,6 @@ $(function() {
             $(".disneyworld").hide();
             $(".vegas").hide();
             $("#city").show();
-            $(".retake").hide()
           }}
       });
 });
